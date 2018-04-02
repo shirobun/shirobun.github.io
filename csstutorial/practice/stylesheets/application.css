@@ -13,3 +13,38 @@ html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockqu
   width: 980px;
   margin: 0 auto;
 }
+
+.header {
+  display: flex;
+  height: 150px;
+  background-color: gray;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__title {
+  font-size: 40px;
+}
+
+.global-nav__items {
+  display: flex;
+  height: 80px;
+  background-color: darkgray;
+  justify-content: center;
+  align-items: center;
+}
+
+.global-nav__item {
+  display: flex;
+  width: calc(980px / 5);
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+.global-nav__item:nth-child(even) {
+  background-color: lightgray;
+}
+
+.global-nav__item:nth-child(odd) {
+}
