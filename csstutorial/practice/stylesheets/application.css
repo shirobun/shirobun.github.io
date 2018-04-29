@@ -419,14 +419,18 @@ li.form-item__inline-item {
   border-radius: 5px;
 }
 
+.form-item__radio {
+  padding-left: 5px;
+}
 input.form-item__radio-input {
-  width: 30px;
-  margin: 0;
+  width: 20px;
 }
 
+.form-item__checkbox {
+  padding-left: 5px;
+}
 input.form-item__checkbox-input {
-  width: 30px;
-  margin: 0;
+  width: 20px;
 }
 
 .form-item__select-pull-down {
